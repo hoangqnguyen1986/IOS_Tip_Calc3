@@ -10,27 +10,24 @@ Time spent: **10** hours spent in total
 
 The following **required** functionality is complete:
 
-* [Y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [Y] Settings page to change the default tip percentage.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
 * [ ] UI animations
-* [Y] Remembering the bill amount across app restarts (if <10mins)
-* [Y] Using locale-specific currency and currency thousands separators. See function name formatCurrency
+* [X] Remembering the bill amount across app restarts (if <10mins)
+* [X] Using locale-specific currency and currency thousands separators. See function name formatCurrency
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-- [Y] Use UIstepper in settings to let user increase the number of people in group and save value in user default 
-- [Y] Instead of using IOS keyboard, I create my own number pad using buttons. The number buttons will append the number to the string. The clear button ('C') will clear all the number and set the value to 0. The decimal button will add a decimal to the string. A fuction is added to prevent user from entering multiple decimal point. 
-- [Y] I design my own app icon using a tool call inkscape and upload to my apps. Press command+shift+h to see the icon.
+- [X] Use UIstepper in settings to let user increase the number of people in group and save value in user default 
+- [X] Instead of using IOS keyboard, I create my own number pad using buttons. The number buttons will append the number to the string. The clear button ('C') will clear all the number and set the value to 0. The decimal button will add a decimal to the string. A fuction is added to prevent user from entering multiple decimal point. 
+- [X] I design my own app icon using a tool call inkscape and upload to my apps. Press command+shift+h to see the icon.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/AECsoY1.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+http://i.imgur.com/AECsoY1.gifv
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
