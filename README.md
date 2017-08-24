@@ -20,9 +20,9 @@ The following **optional** features are implemented:
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-- [X] Use UIstepper in settings to let user increase the number of people in group and save value in user default 
-- [X] Instead of using IOS keyboard, I create my own number pad using buttons. The number buttons will append the number to the string. The clear button ('C') will clear all the number and set the value to 0. The decimal button will add a decimal to the string. A fuction is added to prevent user from entering multiple decimal point. 
-- [X] I design my own app icon using a tool call inkscape and upload to my apps. Press command+shift+h to see the icon.
+- [X] Add UIstepper in Settings to let user increase the number of people in group and save value to user default. This value is remember and can be used across app. 
+- [X] Instead of using IOS keyboard, I create my own number pad using buttons. The number buttons will append the number to the string and update bill amount label. The clear button ('C') will clear all the number and set the bill amount label value to 0. The decimal button will add a decimal to the string; and a function is added to prevent user from entering multiple decimal points. 
+- [X] I design my own app icon using a tool call inkscape and upload png images to my apps. Press command+shift+h to see the custom icon.
 
 ## Video Walkthrough 
 
